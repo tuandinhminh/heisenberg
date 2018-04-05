@@ -9,5 +9,6 @@ class Customer{
 		int NS[3];
 	public:
 		Customer();
+		~Customer();
 		
 };
