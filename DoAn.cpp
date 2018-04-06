@@ -25,7 +25,7 @@ class Customer{
 		void setmaKH(int );
 		void setTen(string );
 		void setcmt(long);
-		void setNS(int ,int ,int);
+		void setNS(int );
 		
 };
 Customer::Customer(string Ten,int maKH,long cmt,int ngay){
