@@ -10,7 +10,10 @@ class Customer{
 	public:
 		Customer();
 		~Customer();
-		
+		void setmaKH(int );
+		void setTen(char* );
+		void setcmt(long);
+		void setNS(int ,int ,int);
 		
 };
 
@@ -28,8 +31,14 @@ class Account:public Customer{
 		void congTienLai(double );
 };
 class Transaction:public Account{
-	
+		string loaiGD;
+		int soLan;
+		int ngayGD[3];
+	public:
+		Transaction();
+		~Transaction();
 };
 int main(){
+	
 	return 0;
 }
