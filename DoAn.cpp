@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-
+#include <string>
 using namespace std;
 class Customer{
 	protected:
@@ -79,6 +79,6 @@ int main(){
 		Customer C(c,t,3,4);
 		cout<<C.getmaKH()<<" "<<C.getTen();
 	}
-	
+	system("pause");
 	return 0;
 }
